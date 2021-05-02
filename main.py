@@ -13,8 +13,8 @@ from dotenv import load_dotenv
 load_dotenv() # get .env variable
 
 session = os.environ.get('TG_SESSION', 'printer')
-api_id = os.getenv("API_ID")
-api_hash = os.getenv("API_HASH")
+api_id = os.getenv("751992574")
+api_hash = os.getenv("1707870415:AAG3G2ydH3E_GW0GQQyovhjvqlEHUY_zCHs")
 debug_mode = os.getenv("DEBUG_MODE").upper() == "TRUE"
 
 proxy = None  # https://github.com/Anorov/PySocks
